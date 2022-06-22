@@ -1,0 +1,21 @@
+-- auto-generated definition
+create table fond
+(
+    id                serial,
+    fondname          varchar(50) not null,
+    fondprice         real        not null,
+    fondprofitability real        not null
+);
+
+alter table fond
+    owner to postgres;
+
+1,FXML,231.33,9
+2,FXRB,67.28,9
+3,FXTM,120,10
+4,FXUS,55.33,10
+5,VTBX,67.28,12
+6,FXDE,100,12
+7,FXCN,3000.3,14
+8,FXRE,3000.3,14
+9,FXRU,88.5,14

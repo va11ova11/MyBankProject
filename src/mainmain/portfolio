@@ -1,0 +1,25 @@
+-- auto-generated definition
+create table portfolio
+(
+    id         serial
+        constraint portfolio_pk
+            primary key,
+    fondname   char(20) not null,
+    amountfond integer,
+    summafond  real     not null,
+    fondprice  real     not null
+);
+
+alter table portfolio
+    owner to postgres;
+
+
+    1,FXML,1050,66765.164,231.33
+    2,FXRB,0,0,67.28
+    3,FXTM,8,960,120
+    4,FXUS,40,2213.1997,55.33
+    5,VTBX,50,3364,67.28
+    6,FXDE,10,30003,100
+    7,FXCHN,3,9000.9,3000.3
+    8,FXRE,11,30103,3000.3
+    9,FXRU,110,9522.8,88.5

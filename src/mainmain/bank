@@ -1,0 +1,14 @@
+-- auto-generated definition
+create table bank
+(
+    id      serial
+        constraint bank_pk
+            primary key,
+    balance real not null
+);
+
+alter table bank
+    owner to postgres;
+
+
+    1,10000
